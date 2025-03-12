@@ -1,9 +1,11 @@
-# ファイルの実行方法・詳細
+# How to Run the Files & Details
 ```
-シミュレーションを行いたいD,Tの組み合わせに対応するディレクトリを選び，case1.ipynbからcase40.ipynbまでそれぞれシミュレーションを行うことでレジームシフトが起こる頻度を計算する。各コードの詳細に関してはtest-codeディレクトリにあるコメントアウトを参照。
+Select the directory corresponding to the combination of D and T for which you want to run the simulation.  
+Run simulations for each of `case1.ipynb` to `case40.ipynb` to calculate the frequency of regime shifts.  
+For details on each code, refer to the comments in the `test-code` directory.
 ```
 
-## ライブラリのバージョン
+## Library Versions
 ```
 python: 3.10.12
 torch: 2.4.0
@@ -11,7 +13,7 @@ numpy: 1.26.4
 matplotlib: 3.9.2
 ```
 
-## ディレクトリ構成
+## Directory Structure
 ```
 NPG
 ├── jikken-40sim
